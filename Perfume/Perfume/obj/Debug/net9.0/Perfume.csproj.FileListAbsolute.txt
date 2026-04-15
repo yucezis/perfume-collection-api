@@ -164,3 +164,7 @@ C:\all_projects\Perfume\Perfume\obj\Debug\net9.0\refint\Perfume.dll
 C:\all_projects\Perfume\Perfume\obj\Debug\net9.0\Perfume.pdb
 C:\all_projects\Perfume\Perfume\obj\Debug\net9.0\Perfume.genruntimeconfig.cache
 C:\all_projects\Perfume\Perfume\obj\Debug\net9.0\ref\Perfume.dll
+C:\all_projects\Perfume\Perfume\obj\Debug\net9.0\Perfume.sourcelink.json
+C:\all_projects\Perfume\Perfume\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\all_projects\Perfume\Perfume\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\all_projects\Perfume\Perfume\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

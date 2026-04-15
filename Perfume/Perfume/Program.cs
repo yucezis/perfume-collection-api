@@ -3,24 +3,28 @@ using Perfume.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// 1. Veritabaný Baðlantýsý
 builder.Services.AddDbContext<PerfumeDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Add services to the container.
-
+// 2. Controller ve Sonsuz Döngü Korumasý
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
     options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
 });
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+
+// 3. SWAGGER SERVÝSLERÝ (O yeþil ekranýn beyni burasý)
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// 4. HTTP Ýstek Hattý (Pipeline)
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    // SWAGGER ARAYÜZÜNÜ ÇÝZEN KISIM (Burasý eklendi)
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();

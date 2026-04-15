@@ -25,9 +25,13 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 211,
+          "DockedWidth": 188,
           "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -39,9 +43,13 @@
           ]
         },
         {
-          "DockedWidth": 211,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 234,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -50,9 +58,9 @@
               "RelativeDocumentMoniker": "Perfume\\Program.cs",
               "ToolTip": "C:\\all_projects\\Perfume\\Perfume\\Program.cs",
               "RelativeToolTip": "Perfume\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowCMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T14:10:22.238Z",
+              "WhenOpened": "2026-04-15T14:33:04.074Z",
               "EditorCaption": ""
             },
             {
@@ -63,7 +71,7 @@
               "RelativeDocumentMoniker": "Perfume\\Controllers\\PerfumeController.cs",
               "ToolTip": "C:\\all_projects\\Perfume\\Perfume\\Controllers\\PerfumeController.cs",
               "RelativeToolTip": "Perfume\\Controllers\\PerfumeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAASwDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T14:07:12.161Z",
               "EditorCaption": ""
@@ -91,17 +99,8 @@
               "RelativeToolTip": "Perfume\\Controllers\\CollectionItemController.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAkwD0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T12:36:34.742Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1048,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "WhenOpened": "2026-04-15T12:36:34.742Z",
+              "EditorCaption": ""
             }
           ]
         }
