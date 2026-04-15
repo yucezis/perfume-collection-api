@@ -44,6 +44,16 @@ namespace Perfume.Controllers
             return Ok(existingNoteLink);
         }
 
+        [HttpDelete("{perfumeId}/{noteId}")]
+        public IActionResult Delete(int perfumeId, int noteId)
+        {
+            var noteLink = _context.PerfumeNotes.Find(perfumeId, noteId);
+            if (noteLink == null) { return NotFound(); }
+
+            _context.PerfumeNotes.Remove(noteLink);
+            _context.SaveChanges();
+            return NoContent();
+        }
 
     }
 }
