@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Perfume.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Perfume.Controllers
 {
@@ -18,7 +19,10 @@ namespace Perfume.Controllers
         [HttpGet("{id}")]
         public ActionResult<Perfume.Models.Perfume> GetById(int id)
         {
-            var perfume = _context.Perfumes.Find(id);
+            var perfume = _context.Perfumes.Include(p=>p.Brand)
+                            .Include(p=>p.PerfumeNotes)
+                            .ThenInclude(pn=>pn.Note)
+                            .FirstOrDefault(p=>p.Id == id);
             if (perfume == null) { return NotFound(); }
             else return Ok(perfume);
         }
