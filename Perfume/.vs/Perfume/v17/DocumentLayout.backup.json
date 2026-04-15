@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\all_projects\\Perfume\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|c:\\all_projects\\perfume\\perfume\\controllers\\collectionitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|solutionrelative:perfume\\controllers\\collectionitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|c:\\all_projects\\perfume\\perfume\\controllers\\perfumenotescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|solutionrelative:perfume\\controllers\\perfumenotescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|c:\\all_projects\\perfume\\perfume\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|solutionrelative:perfume\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|c:\\all_projects\\perfume\\perfume\\controllers\\collectionitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|solutionrelative:perfume\\controllers\\collectionitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,6 +37,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PerfumeNotesController.cs",
+              "DocumentMoniker": "C:\\all_projects\\Perfume\\Perfume\\Controllers\\PerfumeNotesController.cs",
+              "RelativeDocumentMoniker": "Perfume\\Controllers\\PerfumeNotesController.cs",
+              "ToolTip": "C:\\all_projects\\Perfume\\Perfume\\Controllers\\PerfumeNotesController.cs",
+              "RelativeToolTip": "Perfume\\Controllers\\PerfumeNotesController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwCoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T12:53:20.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CollectionItemController.cs",
               "DocumentMoniker": "C:\\all_projects\\Perfume\\Perfume\\Controllers\\CollectionItemController.cs",
               "RelativeDocumentMoniker": "Perfume\\Controllers\\CollectionItemController.cs",
@@ -45,25 +58,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T12:36:34.742Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 211,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BrandController.cs",
-              "DocumentMoniker": "C:\\all_projects\\Perfume\\Perfume\\Controllers\\BrandController.cs",
-              "RelativeDocumentMoniker": "Perfume\\Controllers\\BrandController.cs",
-              "ToolTip": "C:\\all_projects\\Perfume\\Perfume\\Controllers\\BrandController.cs",
-              "RelativeToolTip": "Perfume\\Controllers\\BrandController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwB4AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T17:07:00.535Z",
               "EditorCaption": ""
             }
           ]
