@@ -9,10 +9,10 @@ namespace Perfume.Models
         public int ReleaseYear { get; set; }
 
         public int BrandId { get; set; }
-        public Brand Brand { get; set; }
+        public Brand? Brand { get; set; }
 
         public ScentFamily Family { get; set; }
 
-        public ICollection<PerfumeNotes> PerfumeNotes { get; set; } 
+        public ICollection<PerfumeNotes>? PerfumeNotes { get; set; } 
     }
 }
