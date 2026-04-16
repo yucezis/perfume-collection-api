@@ -34,7 +34,7 @@ builder.Services.AddAuthentication(options =>
         ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
         ValidIssuer = builder.Configuration["Jwt:Issuer"],
-        ValidAudience = builder.Configuration["Jwt:Audience"], // Harf hatasý düzeltildi!
+        ValidAudience = builder.Configuration["Jwt:Audience"], 
         IssuerSigningKey = new SymmetricSecurityKey(
             Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
     };
@@ -42,13 +42,13 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddAuthorization();
 
-// 4. Controller ve Sonsuz Döngü Korumasý
+builder.Services.AddScoped<Perfume.Services.TokenService>();
+
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
     options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
 });
 
-// 5. SWAGGER SERVÝSLERÝ (Kilit ikonu ile birlikte)
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -75,7 +75,6 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-// HTTP Ýstek Hattý (Pipeline)
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -84,7 +83,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// SIRALAMA KUSURSUZ!
 app.UseAuthentication();
 app.UseAuthorization();
 
