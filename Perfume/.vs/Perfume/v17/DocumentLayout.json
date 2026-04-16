@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "C:\\all_projects\\Perfume\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|c:\\all_projects\\perfume\\perfume\\models\\collectionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|solutionrelative:perfume\\models\\collectionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|c:\\all_projects\\perfume\\perfume\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|solutionrelative:perfume\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|c:\\all_projects\\perfume\\perfume\\controllers\\perfumenotescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|solutionrelative:perfume\\controllers\\perfumenotescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|c:\\all_projects\\perfume\\perfume\\models\\perfumenotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|solutionrelative:perfume\\models\\perfumenotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|c:\\all_projects\\perfume\\perfume\\controllers\\perfumecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|solutionrelative:perfume\\controllers\\perfumecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|c:\\all_projects\\perfume\\perfume\\models\\perfume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|solutionrelative:perfume\\models\\perfume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|c:\\all_projects\\perfume\\perfume\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|solutionrelative:perfume\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|c:\\all_projects\\perfume\\perfume\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|solutionrelative:perfume\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|c:\\all_projects\\perfume\\perfume\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|solutionrelative:perfume\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|c:\\all_projects\\perfume\\perfume\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|solutionrelative:perfume\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|c:\\all_projects\\perfume\\perfume\\controllers\\perfumecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|solutionrelative:perfume\\controllers\\perfumecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|c:\\all_projects\\perfume\\perfume\\controllers\\perfumenotescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|solutionrelative:perfume\\controllers\\perfumenotescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}|Perfume\\Perfume.csproj|c:\\all_projects\\perfume\\perfume\\controllers\\collectionitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,86 +55,47 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CollectionItem.cs",
-              "DocumentMoniker": "C:\\all_projects\\Perfume\\Perfume\\Models\\CollectionItem.cs",
-              "RelativeDocumentMoniker": "Perfume\\Models\\CollectionItem.cs",
-              "ToolTip": "C:\\all_projects\\Perfume\\Perfume\\Models\\CollectionItem.cs",
-              "RelativeToolTip": "Perfume\\Models\\CollectionItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\all_projects\\Perfume\\Perfume\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Perfume\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\all_projects\\Perfume\\Perfume\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "Perfume\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T18:07:42.751Z",
+              "WhenOpened": "2026-04-16T09:22:05.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Note.cs",
-              "DocumentMoniker": "C:\\all_projects\\Perfume\\Perfume\\Models\\Note.cs",
-              "RelativeDocumentMoniker": "Perfume\\Models\\Note.cs",
-              "ToolTip": "C:\\all_projects\\Perfume\\Perfume\\Models\\Note.cs",
-              "RelativeToolTip": "Perfume\\Models\\Note.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\all_projects\\Perfume\\Perfume\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Perfume\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\all_projects\\Perfume\\Perfume\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "Perfume\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T17:52:23.466Z",
+              "WhenOpened": "2026-04-16T09:18:55.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PerfumeNotes.cs",
-              "DocumentMoniker": "C:\\all_projects\\Perfume\\Perfume\\Models\\PerfumeNotes.cs",
-              "RelativeDocumentMoniker": "Perfume\\Models\\PerfumeNotes.cs",
-              "ToolTip": "C:\\all_projects\\Perfume\\Perfume\\Models\\PerfumeNotes.cs",
-              "RelativeToolTip": "Perfume\\Models\\PerfumeNotes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T17:47:59.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Perfume.cs",
-              "DocumentMoniker": "C:\\all_projects\\Perfume\\Perfume\\Models\\Perfume.cs",
-              "RelativeDocumentMoniker": "Perfume\\Models\\Perfume.cs",
-              "ToolTip": "C:\\all_projects\\Perfume\\Perfume\\Models\\Perfume.cs",
-              "RelativeToolTip": "Perfume\\Models\\Perfume.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T17:35:31.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Brand.cs",
-              "DocumentMoniker": "C:\\all_projects\\Perfume\\Perfume\\Models\\Brand.cs",
-              "RelativeDocumentMoniker": "Perfume\\Models\\Brand.cs",
-              "ToolTip": "C:\\all_projects\\Perfume\\Perfume\\Models\\Brand.cs",
-              "RelativeToolTip": "Perfume\\Models\\Brand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T17:30:34.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\all_projects\\Perfume\\Perfume\\Program.cs",
               "RelativeDocumentMoniker": "Perfume\\Program.cs",
               "ToolTip": "C:\\all_projects\\Perfume\\Perfume\\Program.cs",
               "RelativeToolTip": "Perfume\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T14:33:04.074Z",
+              "WhenOpened": "2026-04-16T08:57:54.801Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
@@ -156,14 +105,14 @@
               "RelativeDocumentMoniker": "Perfume\\Controllers\\PerfumeController.cs",
               "ToolTip": "C:\\all_projects\\Perfume\\Perfume\\Controllers\\PerfumeController.cs",
               "RelativeToolTip": "Perfume\\Controllers\\PerfumeController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAiwCEAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAIA9wBYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T14:07:12.161Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "PerfumeNotesController.cs",
               "DocumentMoniker": "C:\\all_projects\\Perfume\\Perfume\\Controllers\\PerfumeNotesController.cs",
               "RelativeDocumentMoniker": "Perfume\\Controllers\\PerfumeNotesController.cs",
@@ -176,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "CollectionItemController.cs",
               "DocumentMoniker": "C:\\all_projects\\Perfume\\Perfume\\Controllers\\CollectionItemController.cs",
               "RelativeDocumentMoniker": "Perfume\\Controllers\\CollectionItemController.cs",
@@ -184,7 +133,8 @@
               "RelativeToolTip": "Perfume\\Controllers\\CollectionItemController.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAkwD0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T12:36:34.742Z"
+              "WhenOpened": "2026-04-15T12:36:34.742Z",
+              "EditorCaption": ""
             }
           ]
         }
