@@ -3,7 +3,7 @@ using Perfume.Models;
 
 namespace Perfume.Data
 {
-    public class PerfumeDbContext : DbContext
+    public class PerfumeDbContext : IdentityDbContext<AppUser>
     {
         public PerfumeDbContext(DbContextOptions<PerfumeDbContext> options) : base(options) { }
 
@@ -15,6 +15,8 @@ namespace Perfume.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<PerfumeNotes>()
                 .HasKey(pn => new { pn.PerfumeId, pn.NoteId });
             base.OnModelCreating(modelBuilder);
