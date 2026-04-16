@@ -5,3 +5,4 @@ C:\all_projects\Perfume\Perfume\obj\Debug\net9.0\Perfume.csproj.CoreCompileInput
 C:\all_projects\Perfume\Perfume\obj\Debug\net9.0\Perfume.MvcApplicationPartsAssemblyInfo.cs
 C:\all_projects\Perfume\Perfume\obj\Debug\net9.0\Perfume.MvcApplicationPartsAssemblyInfo.cache
 C:\all_projects\Perfume\Perfume\obj\Debug\net9.0\Perfume.sourcelink.json
+C:\all_projects\Perfume\Perfume\obj\Debug\net9.0\Perfume.GeneratedMSBuildEditorConfig.editorconfig

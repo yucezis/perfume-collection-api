@@ -1,30 +1,26 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Perfume.DTOs;
 using Perfume.Models;
 using Perfume.Services;
-using Microsoft.AspNetCore.Identity;
-
 
 namespace Perfume.Controllers
 {
-
-
     [ApiController]
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {
-        
         private readonly UserManager<AppUser> _userManager;
-        private readonly SingInManager<AppUser> _singInManager;
+        private readonly SignInManager<AppUser> _signInManager;
         private readonly TokenService _tokenService;
 
         public AuthController(
             UserManager<AppUser> userManager,
-            SingInManager<AppUser> singInManager,
+            SignInManager<AppUser> signInManager,
             TokenService tokenService)
         {
             _userManager = userManager;
-            _singInManager = singInManager;
+            _signInManager = signInManager;
             _tokenService = tokenService;
         }
 
@@ -37,17 +33,15 @@ namespace Perfume.Controllers
             {
                 UserName = dto.Email,
                 Email = dto.Email,
-                FullName = dto.Name + dto.Surname,
+                Name = dto.Name,
+                Surname = dto.Surname
             };
 
             var result = await _userManager.CreateAsync(user, dto.Password);
 
-            if (!result.Succeed) return BadRequest(result.Errors);
-
-            await _userManager.AddToRoleAsync(user, "User");
+            if (!result.Succeeded) return BadRequest(result.Errors);
 
             return Ok(new { message = "Kayıt Başarılı" });
-
         }
 
         [HttpPost("login")]
@@ -56,22 +50,21 @@ namespace Perfume.Controllers
             var user = await _userManager.FindByEmailAsync(dto.Email);
             if (user == null) return Unauthorized("Geçersiz bilgiler");
 
-            var result = await _singInManager.CheckPasswordSignInAsync(user, dto.Password, lockoutOnFailure: false);
-
-            if(!result.Succeed) return Unauthorized("Geçersiz bilgiler");
+            var result = await _signInManager.CheckPasswordSignInAsync(user, dto.Password, lockoutOnFailure: false);
+            if (!result.Succeeded) return Unauthorized("Geçersiz bilgiler");
 
             var roles = await _userManager.GetRolesAsync(user);
-            var token = await _tokenService.CreateToken(user, roles);
 
-            return Ok(new AuthResponseDto{
-                token = token,
+            var token = _tokenService.CreateToken(user, roles);
+
+            return Ok(new AuthResponseDto
+            {
+                Token = token,
                 Email = user.Email!,
+                FullName = user.Name + " " + user.Surname,
                 Roles = roles,
-                FullName = user.Name + " "+  user.Surname,
-                ExpriesAt = DateTime.UtcNow.AddHours(24)
+                ExpiresAt = DateTime.UtcNow.AddHours(24)
             });
-
         }
-
     }
 }
