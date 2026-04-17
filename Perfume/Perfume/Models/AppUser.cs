@@ -6,5 +6,7 @@ namespace Perfume.Models
     {
         public string? Name { get; set; }
         public string? Surname { get; set; }
+
+        public virtual ICollection<CollectionItem> CollectionItems { get; set; } = new List<CollectionItem>();
     }
 }

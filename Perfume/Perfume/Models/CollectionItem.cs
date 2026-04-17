@@ -1,4 +1,6 @@
-﻿namespace Perfume.Models
+﻿using Microsoft.AspNetCore.SignalR;
+
+namespace Perfume.Models
 {
     public class CollectionItem
     {
@@ -11,5 +13,8 @@
         public int RemainingVolumeMl { get; set; }
         public bool IsFinished { get; set; }
         public DateTime PurchaseDate { get; set; }
+
+        public string UserId { get; set; }
+        public AppUser AppUser { get; set; }
     }
 }

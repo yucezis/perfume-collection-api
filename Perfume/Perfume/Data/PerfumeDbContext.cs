@@ -20,7 +20,11 @@ namespace Perfume.Data
 
             modelBuilder.Entity<PerfumeNotes>()
                 .HasKey(pn => new { pn.PerfumeId, pn.NoteId });
-            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<AppUser>()
+                .HasMany(u => u.CollectionItems)
+                .WithOne(c => c.AppUser)
+                .HasForeignKey(c => c.UserId);
         }
 
     }
