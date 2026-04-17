@@ -88,4 +88,9 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+using(var scope = app.Services.CreateScope())
+{
+    await DatabaseSeeder.SeedRolesAsync(scope.ServiceProvider);
+}
+
 app.Run();
