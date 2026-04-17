@@ -2,11 +2,13 @@
 using Perfume.Data;
 using System.Diagnostics.Eventing.Reader;
 using Perfume.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Perfume.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class NoteController : ControllerBase
     {
 
@@ -18,6 +20,7 @@ namespace Perfume.Controllers
         }
 
         [HttpGet("{id}")]
+        [AllowAnonymous]
         public ActionResult<Note> GetById(int id) 
         {
             var note = _context.Notes.Find(id);
@@ -26,6 +29,7 @@ namespace Perfume.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public ActionResult<Note> Create(Note newNote) 
         { 
             _context.Notes.Add(newNote);
@@ -34,6 +38,7 @@ namespace Perfume.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Update(int id, Note updatedNote)
         {
             if (id != updatedNote.Id) { return BadRequest(); }
@@ -49,6 +54,7 @@ namespace Perfume.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete(int id) 
         {
             var note = _context.Notes.Find(id);

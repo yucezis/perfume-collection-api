@@ -4,11 +4,13 @@ using Perfume.Models;
 using Perfume.Data;
 using System.Linq;
 using System.Net.Http.Headers;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Perfume.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class BrandController : ControllerBase
     {
 
@@ -20,6 +22,7 @@ namespace Perfume.Controllers
         }
 
         [HttpGet("{id}")]
+        [AllowAnonymous]
         public ActionResult<Brand> GetById(int id)
         {
             var brand = _context.Brands.Find(id);
@@ -28,6 +31,7 @@ namespace Perfume.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles ="Admin")]
         public ActionResult<Brand> Create(Brand newBrand)
         {
             _context.Brands.Add(newBrand);
@@ -36,6 +40,7 @@ namespace Perfume.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Update(int id, Brand updatedBrand)
         {
             
@@ -53,6 +58,7 @@ namespace Perfume.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete(int id) 
         { 
             var brand = _context.Brands.Find(id);

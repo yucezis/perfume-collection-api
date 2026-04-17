@@ -4,11 +4,13 @@ using Perfume.Data;
 using Perfume.DTOs;
 using Perfume.Models;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Perfume.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class CollectionController : ControllerBase
     {
         private readonly PerfumeDbContext _context;
@@ -18,7 +20,7 @@ namespace Perfume.Controllers
         }
 
         [HttpPost("add-to-collection")]
-        public async Task<IActionResult> AddToCollection([FromBody] AddCollectionItemDto dto)
+        public async Task<IActionResult> AddToCollection([FromBody] AddCollectionDto dto)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
@@ -27,8 +29,8 @@ namespace Perfume.Controllers
             var parfumExists = await _context.Perfumes.AnyAsync(p => p.Id == dto.PerfumeId);
             if(!parfumExists) return NotFound("sistemde böyle bir ürün bulunmamaktadır");
 
-            var alreadyExists = await _context.CollectionItems.AnyAsync(c=>c.UserId == userId && dto.PerfumeId);
-            if (!alreadyExists) return BadRequest("bu ürün zaten koleksiyonda bulunmaktadır");
+            var alreadyExists = await _context.CollectionItems.AnyAsync(c=>c.UserId == userId && c.PerfumeId == dto.PerfumeId);
+            if (alreadyExists) return BadRequest("bu ürün zaten koleksiyonda bulunmaktadır");
 
             var collectionItem = new CollectionItem
             {
