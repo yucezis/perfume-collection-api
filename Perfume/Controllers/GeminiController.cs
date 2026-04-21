@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Client;
 using Perfume.Services;
+using Perfume.DTOs.Gemini;
 
 namespace Perfume.Controllers
 {
@@ -16,7 +17,7 @@ namespace Perfume.Controllers
         }
 
         [HttpPost("ask")]
-        public async Task<IActionResult> Ask([FromBody] AskRequest request)
+        public async Task<IActionResult> Ask([FromBody] AskRequestDto request)
         {
             if (string.IsNullOrWhiteSpace(request.Prompt))
                 return BadRequest("Prompt boş olamaz.");
@@ -25,8 +26,7 @@ namespace Perfume.Controllers
             return Ok(new { answer });
         }
 
-        public record AskRequest(string Prompt);
-
+        
 
     }
 }
