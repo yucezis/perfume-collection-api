@@ -8,9 +8,9 @@ namespace Perfume.Controllers
     [Route("api/[controller]")]
     public class GeminiController : ControllerBase
     {
-        private readonly GeminiService _gemini;
+        private readonly IGeminiService _gemini;
 
-        public GeminiController(GeminiService gemini)
+        public GeminiController(IGeminiService gemini)
         {
             _gemini = gemini;
         }

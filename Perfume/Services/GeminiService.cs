@@ -3,7 +3,12 @@ using System.Text.Json;
 
 namespace Perfume.Services
 {
-    public class GeminiService
+    public interface IGeminiService
+    {
+        Task<string> AskAsync(string prompt);
+    }
+
+    public class GeminiService : IGeminiService
     {
         private readonly HttpClient _httpClient;
         private readonly string _apiKey;

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35828.75 d17.13
+VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perfume", "Perfume\Perfume.csproj", "{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perfume.Tests", "Perfume.Tests\Perfume.Tests.csproj", "{9A43F05F-1A19-4AC0-96BB-29CDCC489C8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6B801F8-C7D0-4C2A-9CAD-1AFCE15F3BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A43F05F-1A19-4AC0-96BB-29CDCC489C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A43F05F-1A19-4AC0-96BB-29CDCC489C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A43F05F-1A19-4AC0-96BB-29CDCC489C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A43F05F-1A19-4AC0-96BB-29CDCC489C8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
