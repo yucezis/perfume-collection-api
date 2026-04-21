@@ -20,10 +20,22 @@ namespace Perfume.Services
         {
             var requestBody = new
             {
-                contents = new[]
+                system_instruction = new
                 {
-                    new { parts = new[] { new { text = prompt } } }
-                }
+                    parts = new[]
+                    {
+                        new { text = "Sen uzman ve zarif bir parfümörsün (koku danışmanı)." +
+                                     "Kullanıcılara parfüm koleksiyonları, koku notaları (odunsu, çiçeksi, baharatlı vb.) " +
+                                     "ve tarzlarına uygun parfümler hakkında profesyonel, şık ve kısa cevaplar ver." +
+                                     "Sadece parfüm, kozmetik ve koku dünyası hakkında konuş. " +
+                                     "İlgisiz (matematik, yazılım, tarih vb.) soruları kibarca reddet." 
+                        }
+                    }
+                },
+                   contents = new[]
+                   {
+                       new { parts = new[] { new { text = prompt } } }
+                   }
             };
 
             var json = JsonSerializer.Serialize(requestBody);
