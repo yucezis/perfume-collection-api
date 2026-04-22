@@ -150,7 +150,7 @@ This project will never be "done." Every new design pattern, architecture concep
 
 ### Long-Term
 
-- [ ] **Unit & Integration Tests** — Build a test suite using xUnit
+- [x] **Unit & Integration Tests** — Build a test suite using xUnit
 - [x] **AI Integration** — Perfume recommendation engine based on personal collection and scent preferences 
 
 ---
